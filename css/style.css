@@ -50,3 +50,170 @@ table {
 
 
 /* Write your css below here */
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    align-items: center;
+}
+
+.header a {
+    margin-right: 20px;
+    color: rgb(0 0 0 / 70%);
+    font-size: 17px;
+    text-decoration: inherit;
+}
+
+
+.header-right {
+    display: flex;
+    align-items: center;
+    min-width: 14vw;
+    justify-content: space-between;
+}
+
+.header-right .header-app {
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+}
+
+.header-account-circle {
+    height: 50px;
+    width: 80px;
+}
+
+.main {
+    width: 50%;
+    text-align: center;
+    margin: 6.4em auto;
+}
+
+.logo {
+    width: fit-content;
+    margin: auto;
+}
+
+.center {
+  width: fit-content;
+  margin: 10px auto;
+  padding: 7;
+  border-radius: 6 solid black;
+  text-decoration: none;
+  color: black;
+}
+
+.text {
+    display: flex;
+}
+
+.text a {
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.center input {
+    border: none;
+    height: 40px;
+    text-align: center;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    border: 2px solid lightgray;
+    height: 30px;
+    padding: 10px 20px;
+    border-radius: 999px;
+    width: 52vw;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.search input {
+    flex: 1;
+    padding: 10px 20px;
+    border: none;
+    outline: none;
+}
+
+.search .search-img {
+    height: 25px;
+}
+
+.search .mic-img {
+    height: 27px;
+}
+
+.search-buttons {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    padding: 5;
+    border-radius: 2px solid black;
+}
+
+.search-buttons button {
+    margin-top: px;
+    padding: 10px 15px;
+    background-color: black;
+    outline: none;
+    border: none;
+}
+
+footer{
+  background-color: #f2f2f2;
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+}
+
+.footer-top{
+  padding: 1em;
+  border-bottom: 1px solid gray;
+}
+
+.footer-bottom{
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.right{
+  right: 50px;
+}
+
+.left a{
+  margin-right: 1em;
+  color: gray;
+}
+
+.right a{
+  margin-right: 1em;
+  color: rgb (112, 117, 122);
+}
+
+nav img:hover{
+  background-color: #f2f2f2;
+  border-radius: 100%;
+}
+
+.header a:hover {
+  text-decoration: underline;
+}
+
+footer .footer-down{
+	/* background-color: red; */
+	padding: 15px;
+} 
+footer .footer-down a{
+	margin-left: 25px;
+}
+
+
+    
